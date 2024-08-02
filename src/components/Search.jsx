@@ -3,7 +3,7 @@
 export default function Search({setSearch}) {
     
     return (<>
-        <section className='flex w-full justify-end  items-center gap-2 px-12'>
+        <section className='flex flex-col md:flex-row w-full justify-end  items-center gap-2 px-12'>
         <label 
         className="justify-self-end text-white text-xl font-bold flex items-center"
         htmlFor="">Busca tu personaje: </label>
