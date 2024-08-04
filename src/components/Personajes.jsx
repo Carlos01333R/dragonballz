@@ -64,8 +64,8 @@ const FilterPersonajes = FilterName(personajes)
             <section className='z-200 relativo w-full h-[60%] bg-bg-bg-hero-image bg-no-repeat bg-cover rounded-t-xl '>
 
             <Link to={`/personaje/${personaje.id}`}>
-            <img 
-              src={personaje.image} alt="personaje" className='z-100 w-[100%] h-[330px] object-contain  rounded-t-xl m-auto relative -top-2 object-center  transition-transform duration-500 cursor-pointer group-hover:scale-125 ' />
+            <img
+              src={personaje.image} alt="personaje" className='z-100 w-[100%] h-[330px] object-contain  rounded-t-xl m-auto relative -top-2 object-center  transition-transform duration-500 cursor-pointer group-hover:scale-125  group-hover:drop-shadow-custom' />
 
             </Link>
             </section>

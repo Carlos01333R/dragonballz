@@ -76,7 +76,7 @@ export default function Personaje() {
             
             <section className='flex items-center w-full md:w-[30%]  h-auto'>
             <img 
-              src={personaje.image} alt="personaje" className='z-100 w-[100%] h-[300px] md:h-[500px] object-contain  rounded-t-xl m-auto relative -top-2 object-center  transition-transform duration-500 cursor-pointer hover:scale-110 ' />
+              src={personaje.image} alt="personaje" className='z-100 w-[100%] h-[300px] md:h-[500px] object-contain  rounded-t-xl m-auto relative -top-2 object-center  transition-transform duration-500 cursor-pointer hover:scale-110 hover:drop-shadow-custom ' />
             </section>
 
             <section className='flex items-center w-[90%] md:w-[60%] h-auto'>
@@ -157,7 +157,7 @@ export default function Personaje() {
                 
                 <div className='w-[200px] h-auto mt-6 mx-auto ' key={transformation.id}>
                 <img 
-                className=' w-full h-[300px]  rounded-t-xl m-auto relative -top-2 object-contain  transition-transform duration-500 cursor-pointer hover:scale-125'
+                className=' w-full h-[300px]  rounded-t-xl m-auto relative -top-2 object-contain  transition-transform duration-500 cursor-pointer hover:scale-125 hover:drop-shadow-custom'
                 src={transformation.image} alt="" />
                 
 
